@@ -11,9 +11,14 @@ div#contenido{height: 600px; border: 1px solid black;
 
 font-family: 'Average Sans', sans-serif;}
 
-div#pie{height: 300px;
+div#contenido li{height: 280px; width: 270px; float: left; border: 2px solid blue; margin-left: 15px;}
+
+div#pie{height: 300px; border: 1px solid red;
 
 font-family: 'Average Sans', sans-serif;}
+
+#pie1,#pie2,#pie3,#pie4{border: 1px solid green; height: 280px; width: 280px; margin-top: 10px;}
+#pie1,#pie2,#pie3{float: left; margin-right: 12px;} #pie4{float: right;}
 
 div#menulogo{height: 55px;}
 div#portada{height: 350px; margin-top: 40px;}
