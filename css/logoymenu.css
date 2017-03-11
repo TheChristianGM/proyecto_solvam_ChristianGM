@@ -1,0 +1,23 @@
+/*LOGO*/
+div#logo img{float: left;}
+div#logo p {float: left; text-align: center; font-size: 45px; letter-spacing: 4px; font-family: 'Amatic SC'; font-weight: 580;}
+div#logo p span {display: block; font-size: 25px; font-weight: 600;}
+
+/*MENU*/
+div#menu ul{margin: 5px;}
+
+div#menu ul.submenu {display: none;}
+
+div#menu ul li {border: 1px solid green; display: inline; float: right; background: #e5e5e5;}
+
+{background: #d8450b;}
+
+div#menu ul li a {
+    height: 35px;
+    display: block;
+    text-decoration: none;
+    color: gray;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;}
+

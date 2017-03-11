@@ -1,0 +1,17 @@
+/*Estructura de la pagina*/
+
+div#contenedor{width: 1170px; margin: 0 auto;}
+
+div#encabezado{height: 450px; margin-top: 20px;}
+
+div#contenido{height: 600px; border: 1px solid black;}
+
+div#pie{height: 300px;}
+
+div#menulogo{height: 55px;}
+div#portada{height: 350px; margin-top: 40px;}
+
+div#galeria{height: 350px; width: 770px; border: 1px solid orange; float: left;}
+div#textoprincipal{height: 350px; width: 390px; border: 1px solid pink; float: right;}
+div#logo{width: 470px;height: 55px;float: left;}
+div#menu {width: 690px; float: right;}
