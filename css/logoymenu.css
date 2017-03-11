@@ -1,16 +1,17 @@
 /*LOGO*/
 div#logo img{float: left;}
-div#logo p {float: left; text-align: center; font-size: 45px; letter-spacing: 4px; font-family: 'Amatic SC'; font-weight: 580;}
-div#logo p span {display: block; font-size: 25px; font-weight: 600;}
+div#logo p {float: left; text-align: center; font-size: 40px; letter-spacing: 2px;font-family: 'Julius Sans One', sans-serif;}
+div#logo p span {display: block; font-size: 21px; font-weight: 600; letter-spacing: 0px;}
 
 /*MENU*/
+#menu{font-family: 'Josefin Sans', sans-serif;}
 div#menu ul{margin: 5px;}
 
 div#menu ul.submenu {display: none;}
 
-div#menu ul li {border: 1px solid green; display: inline; float: right; background: #e5e5e5;}
+div#menu ul li {display: block; float: right; background: #e5e5e5;}
 
-{background: #d8450b;}
+div#menu ul li a:hover {background: orange; color: aliceblue; font-weight:900;}
 
 div#menu ul li a {
     height: 35px;
