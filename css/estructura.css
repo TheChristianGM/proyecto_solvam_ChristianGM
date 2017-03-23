@@ -1,32 +1,37 @@
 /*Estructura de la pagina*/
-body{background-image: url(/img/page-bg-1.jpg);}
+body {
+    background-image: url("../img/page-bg-1.jpg");
+}
 
-div#contenedor{width: 1170px; margin: 0 auto;}
+div#contenedor {
+    width: 1170px;
+    margin: 0 auto;
+}
 
-div#encabezado{height: 450px; margin-top: 20px;
-    
+div#encabezado {
+    height: 450px;margin-top: 25px;
+    font-family: 'Average Sans', sans-serif;
+}
+
+div#contenido {
+    height: 600px;border: 1px solid black;margin-top: 25px;
+    font-family: 'Average Sans', sans-serif;
+}
+
+div#pie {height: 300px;margin-top: 25px;background-color: dimgray;
 font-family: 'Average Sans', sans-serif;}
 
-div#contenido{height: 600px; border: 1px solid black;
+div#menulogo {height: 55px;}
+div#portada {height: 350px;margin-top: 45px;}
 
-font-family: 'Average Sans', sans-serif;}
+div#galeria {height: 350px; width: 770px; border: 1px solid orange;float: left;}
+div#textoprincipal {height: 330px; width: 350px; border: 1px solid pink;float: right;}
+div#logo {width: 470px;height: 55px;float: left;}
+div#menu {width: 690px; height: 55px;float: right;}
 
-div#contenido li{height: 280px; width: 270px; float: left; border: 2px solid blue; margin-left: 15px;}
-
-div#pie{height: 300px; border: 1px solid red;
-
-font-family: 'Average Sans', sans-serif;}
-
-#pie1,#pie2,#pie3,#pie4{border: 1px solid green; height: 280px; width: 280px; margin-top: 10px;}
-#pie1,#pie2,#pie3{float: left; margin-right: 12px;} #pie4{float: right;}
-
-div#menulogo{height: 55px;}
-div#portada{height: 350px; margin-top: 40px;}
-
-div#galeria{height: 350px; width: 770px; border: 1px solid orange; float: left;}
-
-div#textoprincipal{height: 350px; width: 390px; border: 1px solid pink; float: right;}
-
-div#logo{width: 470px;height: 55px;float: left;}
-
-div#menu {width: 690px; float: right;}
+div#pie1, div#pie2, div#pie3, div#pie4 {
+    width: 240px; height: 240px;
+    float: left;margin-top: 10px;
+}
+div#pie4 {float: right;}
+div#pie1, div#pie2 {margin-right: 16px;}

@@ -1,0 +1,31 @@
+div#textoprincipal{padding: 10px 20px;}
+
+div#textoprincipal p.titulo{
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-bottom: 30px;}
+
+div#textoprincipal p.subtitulo{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;}
+
+div#textoprincipal p.textonoticia{
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 30px;}
+
+div#textoprincipal p.enlace a{
+        color: #d8450b;
+        font-size: 14px;
+        line-height: 14px;
+        text-decoration: none;}
+
+div#textoprincipal p.enlace span.mas {
+    width: 14px; height: 14px;
+    display: block; margin-top: 2px;
+    float: left;
+    background-image: url(../img/glyphicons-halflings.png);
+    background-repeat: no-repeat;
+    background-position: 0px -96px;}
