@@ -54,17 +54,25 @@ div#menu ul li a {
 
 div#menu li:hover ul.submenu {display: block;}
 
-div#menu ul li ul.submenu {border: 1px solid green; 
+div#menu ul li ul.submenu {
         width: 150px;
         position: absolute;
         margin: 0px;}
 div#menu ul li ul.submenu li {
-        width: 150px;height: 40px;
-        background: #333333;
-}
+        width: 150px;height: 55px;
+        background-color: dimgrey;}
 
-div#menu ul li ul.submenu li a {border-top: 1px solid white;margin: 5px;}
+div#menu ul li ul.submenu li a {
+    border-bottom: 1px solid white;
+    margin: 2px; font-size: 13px;}
+
 div#menu ul li ul.submenu li a.primero {border-top: 0px;}
-div#menu ul li ul.submenu li:hover {background: #d8450b;}
+div#menu ul li ul.submenu li:hover {background: orange;}
 
 div#menu ul li span {width: 23,45px; height: 22,72px;border: 1px solid red;display: block;}
+
+div#menu ul li a span.flecha {width: 14px; height: 14px;display: block;float:right;margin-left:10px;
+    background-image: url("../img/glyphicons-halflings.png");
+    background-repeat: no-repeat;
+    background-position: -313px -120px;
+	}

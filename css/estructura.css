@@ -1,7 +1,7 @@
 /*Estructura de la pagina*/
-body {
-    background-image: url("../img/page-bg-1.jpg");
-}
+body {background-image: url("../img/page-bg-1.jpg");}
+
+.limpiar{clear: both;}
 
 div#contenedor {
     width: 1170px;
@@ -18,8 +18,8 @@ div#contenido {
     font-family: 'Average Sans', sans-serif;
 }
 
-div#pie {height: 300px;margin-top: 25px;background-color: dimgray;
-font-family: 'Average Sans', sans-serif;}
+div#pie {margin-top: 25px;background-color: #e5e5e5;
+font-family: 'Average Sans', sans-serif; margin-bottom: 20px;}
 
 div#menulogo {height: 55px;}
 div#portada {height: 350px;margin-top: 45px;}
