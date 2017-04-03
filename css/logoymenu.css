@@ -4,22 +4,21 @@ div#logo img {float: left;}
 div#logo p {
     float: left;
     text-align: center;
-    font-size: 30px;
-    margin-top: 6px;
-    letter-spacing: 4px;
-    font-family: 'Julius Sans One', sans-serif;
-}
-
+    font-size: 31px;
+    margin-top: 4px;
+    letter-spacing: 7px;
+    font-family: 'Julius Sans One', sans-serif;}
 
 div#logo p span {
     display: block;
-    font-size: 14px;
-}
-
+    margin-top: 4px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 500;}
 
 
 /* Comienza el CSS del Menu */
-#menu{font-family: 'Josefin Sans', sans-serif;}
+#menu{font-family: 'Josefin Sans', sans-serif;padding-right: 180px;}
 
 
 div#menu ul {margin-top: 5px;}
@@ -30,24 +29,22 @@ div#menu ul li:hover ul.submenu {display: block;}
 div#menu ul li {
     
     display: inline;
-    float: right;
-    background: #e5e5e5;
-}
+    float: right;}
 
 
-div#menu ul li:hover {background-color: orange;}
-div#menu ul li:hover a {color: aliceblue;}
+/*div#menu ul li:hover {background-color: limegreen;}*/
+div#menu ul li:hover a {font-weight: 900;}
 
 
 div#menu ul li a {
     display: block;
     height: 30px; 
-    color: grey;
+    color: black;
     text-decoration: none;
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    font-weight:900;
+    font-weight:500;
 }
 
 /* Comienza el CSS del Submenu */
@@ -69,7 +66,7 @@ div#menu ul li ul.submenu li a {
 div#menu ul li ul.submenu li a.primero {border-top: 0px;}
 div#menu ul li ul.submenu li:hover {background: orange;}
 
-div#menu ul li span {width: 23,45px; height: 22,72px;border: 1px solid red;display: block;}
+div#menu ul li span {width: 23,45px; height: 22,72px;display: block;}
 
 div#menu ul li a span.flecha {width: 14px; height: 14px;display: block;float:right;margin-left:10px;
     background-image: url("../img/glyphicons-halflings.png");

@@ -1,0 +1,18 @@
+div#contenidodetalles p img {margin:15px;}
+
+div#contenidodetalles > p {float: left;}
+
+div#contenidodetalles div#textoprincipal {width: 480px;margin:15px;}
+
+div#contenidodetalles ul li {border-bottom:1px dashed grey;
+padding: 15px; font-size: 11px;}
+
+div#contenidodetalles ul {margin-bottom: 35px;}
+
+div#contenidodetalles div#textoprincipal p.enlace span.mas {
+    background-position: -241px -96px;
+}
+div#contenidodetalles div#textoprincipal p.masinfo {float: left;}
+div#contenidodetalles div#textoprincipal p.masinfo a {background-color: black; color: white; padding: 7px 15px;text-decoration: none;
+}
+div#contenidodetalles div#textoprincipal p.enlace {float: right;}
