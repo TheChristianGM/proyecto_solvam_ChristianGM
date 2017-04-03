@@ -1,5 +1,5 @@
 /*Estructura de la pagina*/
-body {background-image: url("../img/page-bg-1.jpg");}
+body {background-image: url("../img/fondos/paper_fibers_@2X.png");}
 
 .limpiar{clear: both;}
 
@@ -9,12 +9,12 @@ div#contenedor {
 }
 
 div#encabezado {
-    height: 450px;margin-top: 25px;
+    margin-top: 25px;
     font-family: 'Average Sans', sans-serif;
 }
 
-div#contenido {
-    height: 600px;border: 1px solid black;margin-top: 25px;
+div#contenido, div#contenidoisabel, div#contenidojuanra, div#contenidoblog {
+    border: 1px solid black;margin-top: 25px;
     font-family: 'Average Sans', sans-serif;
 }
 
@@ -25,9 +25,9 @@ div#menulogo {height: 55px;}
 div#portada {height: 350px;margin-top: 45px;}
 
 div#galeria {height: 350px; width: 770px; border: 1px solid orange;float: left;}
-div#textoprincipal {height: 330px; width: 350px; border: 1px solid pink;float: right;}
-div#logo {width: 470px;height: 55px;float: left;}
-div#menu {width: 690px; height: 55px;float: right;}
+div#textoprincipal {width: 350px; border: 1px solid pink;float: right;}
+div#logo {float: left;}
+div#menu {height: 55px;float: right;}
 
 div#pie1, div#pie2, div#pie3, div#pie4 {
     width: 240px; height: 240px;

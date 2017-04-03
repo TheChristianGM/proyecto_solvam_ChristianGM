@@ -58,67 +58,19 @@ div#pie div#pie5{background-color: gainsboro;}
 
 div#pie div#pie5 p{font-size: 12px;}
 
+div#pie div#pie5 p a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+div#pie div#pie5 p a:hover {
+    color:#d8450b;
+    font-weight: 700;
+}
+
 div#pie div#pie5 p.izq{float: left;}
 
 div#pie div#pie5 p.drch{float: right; margin-right: 70px;}
 
-div#pie div#pie5 div.arriba {width: 47px; height: 47px; float: right; background-image: url(../img/back-top-btn.png); border: 1px solid red;}
-
-
-
-
-/*
-
-div#pie div#pie2, div#pie div#pie1, div#pie div#pie3, div#pie div#pie4 {padding: 20px;
-}
-
-div#pie div#pie1 p {
-    color: white;
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
-div#pie div#pie1 p.direccion {
-    font-size: 14px;
-    margin-left: 18px;
-}
-
-div#pie div#pie2 p {
-    color: white;
-    font-size: 20px;
-}
-
-div#pie div#pie2 div {
-    width: 240px;
-    height: 200px;
-    border: 1px solid white;
-    margin-top: 15px;
-}
-
-div#pie div#pie3 p {
-    color: white;
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
-div#pie div#pie3 ul li a {
-    color: white;
-    text-decoration: none;
-    height: 35px;
-    display: block;
-    padding-top: 15px;
-    border-bottom: 1px dashed white;
-}
-
-div#pie div#pie4 p {
-    color: white;
-    font-size: 20px;
-}
-
-div#pie div#pie4 div {
-    width: 240px;
-    height: 200px;
-    border: 1px solid white;
-    margin-top: 15px;
-}
-*/
+div#pie div#pie5 div.arriba {width: 47px; height: 47px; float: right; background-image: url(../img/back-top-btn.png);}
