@@ -1,9 +1,6 @@
-div#contenidoblog div#widgets {
-    border: 1px solid red;}
-
 div#contenidoblog div#noticias {width: 820px;float: left;}
 
-div#contenidoblog div#widgets {width: 320px; height: 400px;float: right;}
+div#contenidoblog div#widgets {width: 320px; float: right;}
 
 div#contenidoblog div#noticias div.articulo p.fotoarticulo {float: left;}
 div#contenidoblog div#noticias div.articulo div.textoarticulo {
@@ -48,7 +45,7 @@ div#contenidoblog div#noticias div.articulo div.textoarticulo p.detalles span.co
 div#contenidoblog div#noticias div.articulo div.textoarticulo p.detalles span.etiquetas span {background-position: 0px -48px;}
 
 
-div#contenidoblog div#widgets div#caja1 p {
+div#contenidoblog div#widgets div#caja1 > p, div#contenidoblog div#widgets div#caja2 > p, div#contenidoblog div#widgets div#caja3 > p {
     background: white;
     border-bottom: 1px dotted grey;
     border-top: 1px dotted grey;
@@ -60,5 +57,55 @@ div#contenidoblog div#widgets div#caja1 p {
 div#contenidoblog div#widgets div#caja1 ul li a {
     text-decoration: none;   
     color:#d8450b;
-    padding: 15px 15px;
+    padding: 15px 5px;
+    display: block;
+    
+    float: left;
+    width: 280px;
+}
+
+div#contenidoblog div#widgets div#caja1 ul li span {
+    width: 14px;
+    height: 14px;
+    display: block;
+    float: left;
+    margin-top: 15px;margin-left: 5px;
+        background-image: url("../img/glyphicons-halflings.png");
+    background-repeat: no-repeat;
+    background-position: 0px -96px;
+}
+div#contenidoblog div#widgets div#caja1 ul li {
+    border-bottom: 1px dotted grey;
+}
+
+div#contenidoblog div#widgets div#caja2 {
+    margin-top: 25px;
+
+}
+div#contenidoblog div#widgets div#caja2 img {
+    width: 70px;
+    float: left;
+    margin-right: 15px;
+}
+
+div#contenidoblog div#widgets div#caja2 ul li div.text{
+    float:left;
+}
+div#contenidoblog div#widgets div#caja2 ul li p {
+   
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+div#contenidoblog div#widgets div#caja2 ul li p.fecha {
+     font-size: 12px;   
+}
+
+div#contenidoblog div#widgets div#caja2 ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+div#contenidoblog div#widgets div#caja2 ul li {
+     margin-bottom: 20px;
 }
