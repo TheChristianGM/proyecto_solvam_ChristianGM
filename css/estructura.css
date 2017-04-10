@@ -35,3 +35,5 @@ div#pie1, div#pie2, div#pie3, div#pie4 {
 }
 div#pie4 {float: right;}
 div#pie1, div#pie2 {margin-right: 16px;}
+
+div#contenido p{float: left; margin: 10px;}
