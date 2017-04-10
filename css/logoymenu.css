@@ -1,7 +1,10 @@
 /* Comienza el CSS del LOGO */
 
+div#menulogo a{text-decoration: none; color: black;}
+
 div#logo img {float: left;}
 div#logo p {
+    color: black;
     float: left;
     text-align: center;
     font-size: 31px;
@@ -10,6 +13,7 @@ div#logo p {
     font-family: 'Julius Sans One', sans-serif;}
 
 div#logo p span {
+    color: black;
     display: block;
     margin-top: 4px;
     font-size: 16px;
