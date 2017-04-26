@@ -73,3 +73,5 @@ div#pie div#pie5 p.izq{float: left;}
 div#pie div#pie5 p.drch{float: right; margin-right: 70px;}
 
 div#pie div#pie5 div.arriba {width: 47px; height: 47px; float: right; background-image: url(../img/back-top-btn.png);}
+
+body div.arriba {width: 47px; height: 47px; float: right; background-image: url(../img/back-top-btn.png); position: fixed; bottom: 30px; right: 20px;}
