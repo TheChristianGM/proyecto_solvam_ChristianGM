@@ -20,6 +20,12 @@
     
     	
 	<!-- JS ================================================== -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/index.js"></script>
+        <script src="js/contacto.js"></script>
+
+    <!--
+================================================== -->
 
 </head>
 
@@ -63,49 +69,66 @@
   <form id="contact" action="" method="post">
     
     <div class="group">      
-      <input id="name" type="text" required>
+      <input id="name" autofocus>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label>Name</label>
     </div>
+
+      <p id="vacioNombre"></p>
       
     <div class="group">      
-      <input id="mail" type="text" required>
+      <input id="mail" >
       <span class="highlight"></span>
       <span class="bar"></span>
       <label>Email</label>
     </div>
       
+      <p id="vacioEmail"></p>
+      
       <div class="group">      
-      <input id="phone" type="tel">
+      <input id="phone">
       <span class="highlight"></span>
       <span class="bar"></span>
       <label>Teléfono</label>
     </div>
       
+      <p id="vacioTelefono"></p>
+      
       <div class="group">      
-      <input id="web" type="text">
+      <input id="web">
       <span class="highlight"></span>
       <span class="bar"></span>
       <label>Dirección WEB</label>
     </div>
       
+      <p id="vacioID"></p>
+      
       <div class="group">      
-          <textarea placeholder="Introduce tu consulta" id="query" type="text" required></textarea>
+          <textarea id="consulta" placeholder="Introduce tu consulta" id="query" ></textarea>
       <span class="highlight"></span>
       <span class="bar"></span>
     </div>
       
-      <button name="submit" type="submit" id="contact-submit">Enviar</button>
+      <p id="vacioConsulta"></p>
+      
+      <button name="submit" type="button" id="contact-submit">Enviar</button>
+      
+      
+      
+      
+      
     
   </form>
+            
+            
       
   
 </div>
         
     </div>
         
-        <div id="pie">
+           <div id="pie">
             
             <div id="pie1">
             <p>Sobre Nosotros</p>
@@ -160,5 +183,7 @@
         </div>
     </div>
     
+    
+         <div class="arriba"></div>
     </body>
 </html>
