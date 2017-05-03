@@ -11,6 +11,13 @@
     border-radius: 4px;
     cursor: pointer;}
 
+/* requireds js -------------*/
+
+.group p {color: red; font-weight: 500;}
+
+
+
+
 /* basic stylings ------------------------------------------ */
 
 #divformulario     { 

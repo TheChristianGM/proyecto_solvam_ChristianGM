@@ -4,6 +4,7 @@ $("document").ready(function () {
         
         if($("#name").val().trim() ==""){
             $("#vacioNombre").html("Nombre requerido");}
+        else $("#vacioNombre").html("");
         
         
          if($("#mail").val().trim() ==""){
@@ -29,6 +30,10 @@ $("document").ready(function () {
         
          if($("#consulta").val().trim() ==""){
             $("#vacioConsulta").html("Consulta requerida");}else{$("#vacioConsulta").html("");}
+        
+        
+        if($("#name").val().trim() !="" && $("#mail").val().trim() !="" && $("#consulta").val().trim() !="")
+            alert("Se ha enviado su consulta: " + $("#name").val());
         
         
     });
