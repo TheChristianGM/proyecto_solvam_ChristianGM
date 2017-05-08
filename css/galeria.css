@@ -1,13 +1,14 @@
-div#galeria{position: relative; perspective: 700;}
+div#galeria{position: relative; perspective: 700; margin: 0 auto;}
 
 
 div#fotos-galeria{
     position: absolute; 
     transform-style: preserve-3d;
-    width: 100%; height: 100%;}
+    width: 770px; height: 350px;}
 
 
-div#fotos-galeria:hover {}
+div#fotos-galeria:hover {transform: rotatex(360deg);
+        transition: all 10s linear 0s;}
 
 
 div#fotos-galeria div{position: absolute;}
@@ -24,13 +25,13 @@ div#fotos-galeria div p{
 
 
 div#fotos-galeria div.foto1{
-    transform: translateZ(175px) rotateX(0deg);
+    transform: translateZ(175px) rotatex(0deg);
 }
 
 div#fotos-galeria div.foto2{
 transform: translateZ(175px) rotateX(90deg);}
 
 div#fotos-galeria div.foto3{
-transform: translateZ(175px) rotateX(180deg);}
+transform: translateZ(175px) rotatex(180deg);}
 
 div#fotos-galeria div.foto4{transform: translateZ(175px) rotateX(270deg); }
