@@ -1,0 +1,36 @@
+div#galeria{position: relative; perspective: 700;}
+
+
+div#fotos-galeria{
+    position: absolute; 
+    transform-style: preserve-3d;
+    width: 100%; height: 100%;}
+
+
+div#fotos-galeria:hover {}
+
+
+div#fotos-galeria div{position: absolute;}
+
+
+div#fotos-galeria div p{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    width: 670px;
+    top:300px;
+    padding-left: 100px;
+    background: rgba(153,153,153,0.8;);}
+
+
+div#fotos-galeria div.foto1{
+    transform: translateZ(175px) rotateX(0deg);
+}
+
+div#fotos-galeria div.foto2{
+transform: translateZ(175px) rotateX(90deg);}
+
+div#fotos-galeria div.foto3{
+transform: translateZ(175px) rotateX(180deg);}
+
+div#fotos-galeria div.foto4{transform: translateZ(175px) rotateX(270deg); }

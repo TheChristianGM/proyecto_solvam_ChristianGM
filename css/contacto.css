@@ -1,0 +1,17 @@
+/* =========CONTENIDO JUANRA==========*/
+
+
+div#contenidojuanra{float: left; width: 1170px;}
+
+#divformulario{float: left;}
+
+div#datos-contacto{
+    border: 1px solid black; 
+    height: 400px; width: 400px;
+    float: right;}
+
+
+div#donde-estamos{
+    border: 1px solid red; 
+    height: 400px; width: 400px; float: right;}
+
