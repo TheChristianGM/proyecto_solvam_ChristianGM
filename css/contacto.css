@@ -5,22 +5,26 @@ div#contenidojuanra{float: left; width: 1170px;}
 
 #divformulario{float: left;}
 
-div#datos-contacto{
-    border: 1px solid black; width: 400px;
+div#datos-contacto, div#donde-estamos {
+    width: 400px; 
+    padding-bottom: 10px;
     float: right;}
 
-
-div#donde-estamos{
-    border: 1px solid red; 
-    height: 400px; width: 400px; float: right;}
-
-div#datos-contacto > p, div#donde-estamos > p {
+div#datos-contacto > p{
     background: white;
     border-bottom: 1px dotted grey;
     border-top: 1px dotted grey;
     padding: 15px 20px;
     font-size: 20px;
     margin-bottom: 15px;}
+
+ div#donde-estamos > p {
+    background: white;
+    border-bottom: 1px dotted grey;
+    border-top: 1px dotted grey;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-top: 25px;}
 
 div#datos-contacto ul li a {
     text-decoration: none;   
