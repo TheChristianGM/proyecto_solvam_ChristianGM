@@ -13,7 +13,7 @@ div#encabezado {
     font-family: 'Average Sans', sans-serif;
 }
 
-div#contenido, div#contenidoisabel, div#contenidojuanra, div#contenidoblog {
+div#contenido, div#contenidoisabel, div#contenidojuanra, div#contenidoblog, div#contenidoarticulo {
     border: 1px solid black;margin-top: 25px;
     font-family: 'Average Sans', sans-serif;
 }
