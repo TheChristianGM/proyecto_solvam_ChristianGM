@@ -5,6 +5,9 @@ $("document").ready(function () {
 			rules: {
                 name: "required",
                 consulta: "required",
+                web: {
+                    required: false,
+                    url: true},
                 email: {
 					required: true,
 					email: true
@@ -40,6 +43,7 @@ $("document").ready(function () {
 			messages: {
                 name:"Introduce tu nombre completo",
                 email: "Introduce un email válido",
+                web: "Formato introducido incorrecto"
                 
                 /*
 				firstname: "Please enter your firstname",
@@ -62,7 +66,14 @@ $("document").ready(function () {
 				topic: "Please select at least 2 topics"
                 
                 */
-			}
+			},
+            submitHandler: function(){
+                alert('Rellenado correctamente');
+                console.log('all ok');
+                
+                
+                }
+            
 		});
 
     

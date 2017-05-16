@@ -14,18 +14,18 @@ if (isset($_GET['Articulos'])){
 $sql=$conexion->query("SELECT * FROM `articulos_cgm` WHERE id_articulo=$articulo") or die($conexion->error);}
 
 
+
 ?>
 
 
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Proyecto 1DAW - SOLVAM</title>
 
     <!-- Fuentes ================================================== -->
-  <link href="https://fonts.googleapis.com/css?family=Average+Sans|Josefin+Sans|Julius+Sans+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Average+Sans|Josefin+Sans|Julius+Sans+One|Open+Sans" rel="stylesheet">
     
 	<!-- CSS ================================================== -->
 	<link rel="stylesheet" href="../css/reset.css">
@@ -33,16 +33,19 @@ $sql=$conexion->query("SELECT * FROM `articulos_cgm` WHERE id_articulo=$articulo
     <link rel="stylesheet" href="../css/logoymenu.css">
     <link rel="stylesheet" href="../css/textoprincipal.css">
     <link rel="stylesheet" href="../css/pie.css">
-    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/articulo.css">
+    
 
 	<!-- Favicons ================================================== -->
 	<link rel="shortcut icon" href="../img/favicon.ico">
     
     	
 	<!-- JS ================================================== -->
-            <script src="../js/jquery-3.2.0.min.js"></script>
+    
+        <script src="../js/jquery-3.2.0.min.js"></script>
     <script src="../js/index.js"></script>
     <!-- ================================================== -->
+    
 
 </head>
 
@@ -56,7 +59,6 @@ $sql=$conexion->query("SELECT * FROM `articulos_cgm` WHERE id_articulo=$articulo
                     <li><a href="../contacto.html">CONTACTO</a></li>
                     <li><a href="../blog.html">BLOG<span class="flecha"></span></a>
                        
-                        
                         <ul class="submenu">
                               <li><a href="#">Novedades Android</a></li> 
                               <li><a href="#">Novedades Intel</a></li>
@@ -64,119 +66,58 @@ $sql=$conexion->query("SELECT * FROM `articulos_cgm` WHERE id_articulo=$articulo
                            </ul>
                       </li>
                     
-                    
                     <li><a href="../index.html">INICIO</a></li>
                 
                 </ul>
-                 <div class="limpiar"></div>
+                <div class="limpiar"></div>
             </div>
             
         </div>
-        
-        
-        
+                
     </div>
         
-    <div id="contenidoblog">
+    <div id="contenidoarticulo">
         
-        
-        <div id="noticias">
-            
-        <?php
+                <?php
 			while($fila=$sql->fetch_array()){  
                 
-                $articulo= utf8_encode ($fila[2]);
-                $articulo_corto= substr ($articulo,0,400)."...";
                 
 		?>
-                                
-                <div class="articulo">
-                    <p class="fotoarticulo"><img width="270" height="220" src="../img/blog/<?php echo $fila[7];?>"></p>
-                    
-                    <div class="textoarticulo">
-                        <p class="tit"><?php echo utf8_encode($fila[1]);?></p>
-                        <p class="resumen"><?php echo $articulo_corto?></p>
-                        <p class="masinfo"><a href="articulos.php?articulos_cgm=<?php echo ($fila[0])?>">Leer más...</a></p>
-                        
-                        
-                        <p class="detalles">
-                            <span class="date"><span></span><?php echo $fila[4];?> | </span><span class="autor"><span></span><?php echo $fila[3];?> | </span><span class="comentarios"><span></span>2 comentarios | </span><span class="etiquetas"><span></span><?php echo $fila[5];?></span>
-                        </p>
-                    </div>
-                    <div class="limpiar"></div>
-                </div>
-                <?php } ?>
-                
-                
-                
-            </div>
         
         
-        
-            <div id="widgets">
-                <div id="caja1">
-                    <p>Categorias</p>
-                    <ul>
-                        
-                        <li><span></span><a href="blog.php">Todas las categorias</a><div class="limpiar"></div></li> 
-                        
-                        
-                        <?php
-			while($fila=$sqla->fetch_array()){  
-		    ?>
-                        
-                        
-                        <li><span></span><a href="blog.php?Categorias=<?php echo $fila[0];?>"><?php echo $fila[1];?></a><div class="limpiar"></div></li> 
-                        <?php } ?>
-                        
-                    </ul>
-                    
-                    
-                </div>
-                
-                
-                <div id="caja2">
-                    <p>Post Populares</p>
-                    <ul>
-                        
-                        <?php
-			while($fila=$sqlb->fetch_array()){  
-		?>
-                        
-                        <li>
-                           <a href="#">
-                            <img width="70" height="57" src="../img/blog/<?php echo $fila[7];?>" />
-                            <div class="text">
-                            <p><?php echo $fila[1];?></p>
-                            <p class="fecha">Fecha publicación: <?php echo $fila[4];?></p>
-                            </div>
-                            </a>
-                           <div class="limpiar"></div> 
-                        </li>
-                        
-                        <?php } ?>
-                                           
-                    </ul>
-                    
-                </div>
-                <div id="caja3">
-                    <p>Nuestros vídeos</p>
-                    <div class="video">
-                        
-                        
-                        <iframe width="320" height="200" src="https://www.youtube.com/embed/9wJQEHNYE7M" frameborder="0" allowfullscreen></iframe>
+        <div class="articulo">
+            
+            <img class="imgtitulo" src="../img/blog/<?php echo $fila[7];?>">
+            
+            <h1>Pues este es el titulo completo de la noticia del articulo para comprobar el largo</h1>
+            <h2>Escrito por TheChristianGM el día 11/05/17</h2>
+            <p>
+                Y aquí ya va a ir todo el articulo asi que:
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales id ipsum consequat tincidunt. Integer ac ex dictum dolor dapibus commodo. Suspendisse convallis placerat ipsum ut lobortis. Praesent eget dapibus lectus. Nunc vel dui mauris. Aenean eget ante sit amet erat scelerisque facilisis. Phasellus hendrerit urna in cursus tempus. Nam scelerisque nec nisi sed varius. Nam tincidunt, velit non mattis pellentesque, elit ante facilisis lorem, a fringilla magna metus quis tellus. Sed velit orci, fermentum ut viverra ut, auctor eget massa. Nunc ultricies porta ante sed tincidunt. Nulla porttitor sollicitudin libero, id egestas massa. Nunc non nisl diam. Ut sodales, dolor nec egestas eleifend, odio mi porta velit, maximus pharetra est diam ac ante. Vestibulum suscipit, turpis ac mollis mattis, erat neque consectetur est, eu mollis nisl nisl vitae massa.<br><br/>
 
-                    </div>
-                </div>
-                
-            </div>
-        </div>
+Aliquam vel sagittis nunc, at cursus neque. Nullam eget massa ut turpis maximus ullamcorper vitae eu ipsum. Phasellus sodales quam nec turpis varius viverra. Sed interdum porttitor scelerisque. Nullam venenatis eget sem in egestas. Maecenas tincidunt faucibus erat, et imperdiet velit semper ac. Aliquam sit amet auctor lectus. Suspendisse et maximus augue. Nulla convallis nulla vel magna mollis ultrices. Fusce vestibulum erat vitae dui ullamcorper, in ullamcorper nibh gravida. Etiam non odio lobortis, mattis est sed, suscipit augue.<br><br/>
+
+Ut a arcu ut ligula blandit hendrerit at nec ligula. Pellentesque dignissim commodo leo, ut sagittis tortor malesuada vitae. Cras ipsum dolor, tempus et vehicula vel, consectetur eget odio. Fusce mollis ornare diam, sit amet cursus turpis pulvinar vel. Aliquam erat volutpat. Donec lacinia neque id elementum congue. Donec vitae viverra elit. Proin laoreet, nisi egestas congue suscipit, nulla nulla mollis purus, vel viverra arcu risus eu lectus.<br><br/></p>
+            
+            <img class="imgcontenido" src="https://wallpaperbrowse.com/media/images/ZhGEqAP.jpg">
+            
+            <p>
+
+Proin nec felis et nisl feugiat gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam volutpat turpis eu ipsum sollicitudin aliquet. Vestibulum elit risus, viverra at ante vitae, commodo lobortis mauris. Quisque vitae malesuada tellus. Fusce ac ipsum dolor. Mauris gravida faucibus erat in tincidunt. Mauris porta ipsum id augue ornare vulputate. In fringilla nec enim at suscipit. Nulla vehicula lectus augue, ultrices egestas neque interdum id. Donec posuere aliquet tellus sed fringilla. Aliquam erat volutpat. Vestibulum a nunc id erat ullamcorper egestas ac sit amet ante. Praesent euismod, massa eu pretium ornare, augue nisl accumsan est, ac consequat ante justo ac libero.<br><br/>
+
+Maecenas ultrices porttitor aliquet. Vestibulum ultricies eget mi id accumsan. Fusce ex diam, tempus at turpis id, finibus facilisis metus. Mauris porttitor diam sit amet magna blandit, sit amet hendrerit purus condimentum. Nulla ut imperdiet nunc, non accumsan tellus. Nunc sit amet congue urna, a pretium odio. Integer ipsum sem, lobortis ut neque nec, feugiat feugiat augue. Maecenas auctor pharetra libero. Quisque id luctus felis. Quisque rutrum dui a faucibus laoreet. Quisque vel viverra neque. Suspendisse pretium libero nec augue vestibulum mattis. Duis vel arcu vel leo finibus finibus vitae varius urna. Sed blandit turpis eu iaculis tempus.<br><br/>
+            </p>
+        
+        
+        
+        
+        </div> 
         
         <div class="limpiar"></div>
-
-    
+    </div>
+    <?php } ?>
         
-        <div id="pie">
+ <div id="pie">
             
             <div id="pie1">
             <p>Sobre Nosotros</p>
@@ -231,5 +172,7 @@ $sql=$conexion->query("SELECT * FROM `articulos_cgm` WHERE id_articulo=$articulo
         </div>
     </div>
     
+    
+         <div class="arriba"></div>
     </body>
 </html>
