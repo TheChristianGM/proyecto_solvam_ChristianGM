@@ -22,7 +22,7 @@ $("document").ready(function () {
         
         
         if($("#phone").val().trim() != ""){
-                var phone_regex = /^[9|8|7][0-9]{8}$/;
+                var phone_regex = /^[9|8|7|6][0-9]{8}$/;
                 var phone_regex_result = phone_regex.test($("#phone").val().trim());
                 if(phone_regex_result==false){$("#vacioTelefono").html("El telefono no tiene el formato requerido");}
                 else $("#vacioTelefono").html(""); }

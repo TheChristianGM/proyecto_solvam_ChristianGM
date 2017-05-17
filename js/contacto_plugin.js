@@ -1,10 +1,22 @@
 $("document").ready(function () {
+    $.validator.addMethod("phone_regex", function(value, element, regexpr){
+        if(value.trim() !=""){
+        return regexpr.test(value);
+        }else{
+            return true;}
+                         
+    
+    });
+    
+    
     
     		// validate signup form on keyup and submit
 		$("#contact").validate({
 			rules: {
                 name: "required",
                 consulta: "required",
+                phone:{
+                    phone_regex: /^[9|7|6][0-9]{8}$/},
                 web: {
                     required: false,
                     url: true},
@@ -43,7 +55,8 @@ $("document").ready(function () {
 			messages: {
                 name:"Introduce tu nombre completo",
                 email: "Introduce un email válido",
-                web: "Formato introducido incorrecto"
+                web: "Formato introducido incorrecto",
+                phone: "Introduce un número de teléfono correcto"
                 
                 /*
 				firstname: "Please enter your firstname",
