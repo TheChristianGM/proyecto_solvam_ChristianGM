@@ -6,4 +6,21 @@ $("document").ready(function () {
         
         },1000);
     });
+    
+    
+    $(".lupa").click(function(){
+        alert("entramos");
+        
+        $.fancybox.open([
+            {
+             //imagen1
+                src: 'img/detalles/asus-h81-gamer-edition.jpg',
+                opts: {
+                    caption: 'First image'
+                }
+            }
+        ]);
+    });
+    
+    
  });
