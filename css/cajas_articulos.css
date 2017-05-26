@@ -9,23 +9,18 @@ div.caja_articulo{
     margin-left: 14px;
     width: 275px; height: 275px;
     margin-top: 14px;
-    position: relative;}
-
-div.caja_articulo a {
-    width: inherit; height: inherit;
-    float: left;
+    position: relative;
     border-radius: 3px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.23), 0 3px 10px rgba(0,0,0,0.16);
-text-decoration: none;}
+    box-shadow: 0 3px 10px rgba(0,0,0,0.23), 0 3px 10px rgba(0,0,0,0.16);}
 
 .caja_articulo img{height: 200px; width: 100%; 
     background-position: center center; background-repeat: no-repeat;
     border-radius: 3px 3px; background-size: cover;}
 
 .caja_articulo h2 { display: block;
-    font-size: 18.6px;
+    font-size: 14px;
     font-weight: 600;
-    font-variant-caps: all-petite-caps;
+    text-transform: uppercase;
     text-align: center;
     line-height: 23px;
     color: black;

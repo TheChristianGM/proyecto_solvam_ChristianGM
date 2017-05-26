@@ -4,7 +4,7 @@ div#pie div#pie1, div#pie div#pie2, div#pie div#pie3, div#pie div#pie4, div#pie 
 div#pie div#pie1 p, div#pie div#pie2 p, div#pie div#pie3 p,div#pie div#pie4{font-size: 20px;}
 
 
-div#pie div#pie2 div {
+div#pie div#pie2 div.mapa {
     widows: 240px; height: 200px;
     border: 1px solid white;
     margin-top: 15px;}

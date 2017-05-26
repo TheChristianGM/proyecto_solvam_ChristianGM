@@ -14,7 +14,7 @@ div#encabezado {
 }
 
 div#contenido, div#contenidoisabel, div#contenidojuanra, div#contenidoblog, div#contenidoarticulo {
-    border: 1px solid black;margin-top: 25px;
+    margin-top: 25px;
     font-family: 'Average Sans', sans-serif;
 }
 
@@ -27,7 +27,7 @@ div#menulogo {height: 55px;}
 div#portada {height: 350px;margin-top: 45px;}
 
 div#galeria {height: 350px; width: 770px; border: 1px solid orange;float: left;}
-div#textoprincipal {width: 350px; border: 1px solid pink;float: right;}
+div#textoprincipal {width: 350px; float: right;}
 div#logo {float: left;}
 div#menu {height: 55px;float: right;}
 
