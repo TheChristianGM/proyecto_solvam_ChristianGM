@@ -1,5 +1,3 @@
-  <div id="pie">
-            
             <div id="pie1">
             <p>Sobre Nosotros</p>
                 <p><img src="../img/Logo.png"></p>
@@ -50,10 +48,7 @@
                 <p class="izq">Copyrigth 2017 SOLVAM - Todos los derechos reservados</p>
                 <div class="arriba"></div>
                 
-                <p class="drch"><a href="../index.html">Inicio</a> | <a href="../blog.html">Blog</a> |  <a href="../contacto.html">Contacto</a> | <a href="../aprivado.html">Acceso Privado</a> </p>   
+                <p class="drch"><a href="index.php">Inicio</a> | <a href="blog.php">Blog</a> |  <a href="../contacto.html">Contacto</a> | <a href="../aprivado.html">Acceso Privado</a> </p>   
             
                 
             </div>
-            
-        
-        </div>

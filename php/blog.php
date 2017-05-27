@@ -158,11 +158,11 @@ include ("menulogo.php");
         
         <div class="limpiar"></div>
 
-    
-      <?php
-include ("pie.php");
-?>
-      
+      <div id="pie">
+        <?php
+            include ("pie.php");
+          ?>
+    </div>
     </div>
     
     </body>
