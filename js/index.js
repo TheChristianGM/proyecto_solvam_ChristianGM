@@ -9,14 +9,15 @@ $("document").ready(function () {
     
     
     $(".lupa").click(function(){
-        alert("entramos");
+        var fotolupa=($(this).prev().prev().attr("src"));
+        
+        var subtitulo=($(this).prev().text());
         
         $.fancybox.open([
             {
-             //imagen1
-                src: 'img/detalles/asus-h81-gamer-edition.jpg',
+                src: fotolupa,
                 opts: {
-                    caption: 'First image'
+                    caption: subtitulo
                 }
             }
         ]);
