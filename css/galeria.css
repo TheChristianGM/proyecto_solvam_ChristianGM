@@ -14,6 +14,10 @@ div#fotos-galeria{
     width: 100%; height: 100%;}
 
 
+div#fotos-galeria img{width: 770px;height: 350px;}
+
+
+
 div#fotos-galeria:hover {
     transform: rotatex(-270deg);
     transition: all 10s linear 0s;}

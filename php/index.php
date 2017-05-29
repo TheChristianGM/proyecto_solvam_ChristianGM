@@ -35,8 +35,8 @@ $sqlc=$conexion->query("select * from articulos_cgm order by fecha desc limit 4"
     
     
         <!-- Add fancyBox main JS and CSS files -->
-	<script type="text/javascript" src="../js/jquery.fancybox.pack.js"></script>
-	<link rel="stylesheet" type="text/css" href="../css/jquery.fancybox.css" media="screen" />
+	<script type="text/javascript" src="../js/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.fancybox.min.css" media="screen" />
     
     
     <script type="text/javascript" src="../js/ajustes-fancybox.js"></script>
@@ -122,20 +122,12 @@ $sqlc=$conexion->query("select * from articulos_cgm order by fecha desc limit 4"
     </div>
         
     <div id="contenido">
-        <div class="lupa" style="height:47px; width:47px; border: 1px solid red;   background-image: url(../img/back-top-btn.png);" ></div>
         
-        
-                <p>
-                <a class="fancybox-effects-d" href="../img/detalles/asus-h81-gamer-edition.jpg" title="Hola Juanra :D"><img height="300px" src="../img/detalles/asus-h81-gamer-edition.jpg" alt="" /></a>
-	           </p>
-        
-        
-
 
         <div class="caja_articulo">
         <div class="telon"></div>
         <img src="../img/detalles/gigabyte-aorus.jpg">
-        <h2>Gigabute Aorus GA-AX370-Gaming K5</h2>
+        <h2>Gigabyte Aorus GA-AX370-Gaming K5</h2>
         <div class="lupa"></div>        
         <a href="detalles.php?foto=1"><div class="detalles"></div></a>
         </div>
@@ -153,7 +145,7 @@ $sqlc=$conexion->query("select * from articulos_cgm order by fecha desc limit 4"
         <div class="caja_articulo">
         <div class="telon"></div>
         <img src="../img/detalles/ryzen7_1800X.jpg">
-        <h2>AMD Ryzen7 1800X</h2>
+        <h2>AMD Ryzen 7 1800X</h2>
         <div class="lupa"></div>        
         <a href="detalles.php?foto=3"><div class="detalles"></div></a>  
         </div>
@@ -168,6 +160,8 @@ $sqlc=$conexion->query("select * from articulos_cgm order by fecha desc limit 4"
         
         <div class="limpiar"></div>
         </div>
+    
+   
     
         <div class="limpiar"></div>
         
